@@ -36,7 +36,7 @@ var app = {
             $('body').html(new HomeView(self.store).render().el);
         });
 
-        registerEvents();
+        this.registerEvents();
     }
 };
 
